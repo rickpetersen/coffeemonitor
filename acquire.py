@@ -5,6 +5,7 @@ from azure.storage.blob import PublicAccess
 import datetime
 import os
 
+# testing
 # Setting Parameters
 
 ACCOUNT_NAME = "__storageaccountname__"
@@ -29,7 +30,6 @@ try:
         #camera.stop_preview()
         print('Pushed %s to blob storage' % local_file_name);
         os.remove(full_path_to_file)
-        sleep(30)
         
 except Exception as e:
     #camera.stop_preview()
