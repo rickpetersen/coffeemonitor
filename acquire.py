@@ -5,7 +5,6 @@ from azure.storage.blob import PublicAccess
 import datetime
 import os
 
-# testing
 # Setting Parameters
 
 ACCOUNT_NAME = "__storageaccountname__"
