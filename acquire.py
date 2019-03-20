@@ -7,11 +7,11 @@ import os
 
 # Setting Parameters
 
-ACCOUNT_NAME = "coffeemonitor"
+ACCOUNT_NAME = "__storageaccountname__"
 
-ACCOUNT_KEY = "JELAV+MyTbiKW3iTWN5cwG6Z09gYsAAFrwfIqhnkI2NViuW6uI1PpCEHWf2Q2O2T4aUMNNwg9vepvBYtvPeSOA=="
+ACCOUNT_KEY = "__storageaccountkey__"
 
-CONTAINER_NAME = "devimages"
+CONTAINER_NAME = "__containername__"
 
 
 blob_service = BlockBlobService(account_name=ACCOUNT_NAME, account_key=ACCOUNT_KEY)
